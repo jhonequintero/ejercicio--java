@@ -16,6 +16,7 @@ import ejerciciosSwitchCase.ejercicio44;
 import ejerciciosSwitchCase.ejercicio55;
 import ejerciciosWhile.ejercicio111;
 import ejerciciosWhile.ejercicio222;
+import ejerciciosWhile.ejercicio333;
 
 
 public class  EjecutadorPrincipal{
@@ -194,6 +195,8 @@ public class  EjecutadorPrincipal{
                                 break;
                             case 3:
                                 System.out.println("Bienvenido al Ejercicio 3: simulacion de un  funcionamiento de una impresora.");
+                                ejercicio333 objImpresora = new ejercicio333();
+                                objImpresora.ingresarDatos();
                                 break;
                             case 4:
                                 System.out.println("Bienvenido al Ejercicio 4: simalacion de   un viaje en coche.");
