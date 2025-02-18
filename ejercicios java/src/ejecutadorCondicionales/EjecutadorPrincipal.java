@@ -26,6 +26,11 @@ import ejerciciosDoWhile.ejercicio3333;
 import ejerciciosDoWhile.ejercicio4444;
 import ejerciciosDoWhile.ejercicio5555;
 import ejerciciosDoWhile.ejercicio6666;
+import ejerciciosFor.ejercicio11111;
+import  ejerciciosFor.ejercicio22222;
+import ejerciciosFor.ejercicio33333;
+import ejerciciosFor.ejercicio44444;
+import ejerciciosFor.ejercicio55555;
 
 public class  EjecutadorPrincipal{
     public static void main(String[] args) {
@@ -304,20 +309,28 @@ public class  EjecutadorPrincipal{
                         switch (opc5) {
                             case 1:
                                 System.out.println("Bienvenido al Ejercicio 1: simulacion de  un   registro de vehículos en un parqueadero");
+                                ejercicio11111  objParqueadero = new ejercicio11111();
+                                objParqueadero.ingresarDatos();
                                 break;
                             case 2:
                                 System.out.println("Bienvenidos al Ejercicio 2: simulacion de  operaciones de compra en una tienda virtual.  ");
-                                // Llamar a métodos y crear objeto
-                              
+                                ejercicio22222 objTienda= new ejercicio22222();
+                                objTienda.ingresarDatos();
                                 break;
                             case 3:
                                 System.out.println("Bienvenido al Ejercicio 3: simulacion de agenda de contactos.");
+                                ejercicio33333 objAgenda = new ejercicio33333();
+                                objAgenda.ingresarDatos();
                                 break;
                             case 4:
                                 System.out.println("Bienvenido al Ejercicio 4: simalacion de   lista de números. .");
+                                ejercicio44444 objListado= new ejercicio44444();
+                                objListado.ingresarDatos();
                                 break;
                             case 5:
                                 System.out.println("Bienvenido al Ejercicio 5: simualacion de  proceso de ventas en una tienda.");
+                                ejercicio55555 objProcesoVentas= new ejercicio55555();
+                                objProcesoVentas.ingresarDatos();
                                 break;                  
                             
                             default:

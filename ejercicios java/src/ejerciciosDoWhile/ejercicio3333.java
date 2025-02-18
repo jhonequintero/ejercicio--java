@@ -6,8 +6,6 @@ import java.util.Scanner;
 
 public class ejercicio3333 {
     int temperatura;
-    String opcion;
-    //int umbralAlerta=
     public void ingresarDatos(){
         Scanner entrada= new Scanner(System.in);
           do {

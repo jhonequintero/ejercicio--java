@@ -25,6 +25,12 @@ public class ejercicio4444 {
    
         promedio = acumulador / cantidad;
         System.out.println("El promedio es: " + promedio);
+        if (promedio > 60 ){
+            System.out.println("aprovaste el examen");
+        }
+        else{
+            System.out.println("reprovaste el examen");
+        }
         
     }
     
