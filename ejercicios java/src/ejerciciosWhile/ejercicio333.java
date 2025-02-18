@@ -22,18 +22,18 @@ public class ejercicio333 {
 
             if (cantidad > 0 && cantidad <= cantidadPaginas) {
                 cantidadPaginas -= cantidad;
-                System.out.println("impresion exitosa. Has imprimido: $" + cantidad + " pepel.");
-                System.out.println("pepel restante: $" + cantidadPaginas);
+                System.out.println("impresion exitosa. Has imprimido: $" + cantidad + " hojas de papel.");
+                System.out.println("pepel restante: $" + cantidadPaginas + " hojas de papel");
             } else {
-                System.out.println("Opción inválida. pepel insuficiente  .");
+                System.out.println("Opción inválida. papel insuficiente  .");
             }
 
-            System.out.print("¿Desea imprimir  máspapel? (Sí=0 / No=1): ");
+            System.out.print("¿Desea imprimir  más papel? (Sí=0 / No=1): ");
             continuar = entrada.nextInt();
         }
         
-        System.out.println("Gracias por usar la impresora  Automático Quintero.");
-        System.out.println("tu papel  restante es de : "+ cantidadPaginas);
+        System.out.println("Gracias por usar la impresora  Automática Quintero.");
+        System.out.println("tu papel  restante es de : "+ cantidadPaginas + "  hojas de papel");
     }
 
 }

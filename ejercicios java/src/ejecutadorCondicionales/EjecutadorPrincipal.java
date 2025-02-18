@@ -17,7 +17,15 @@ import ejerciciosSwitchCase.ejercicio55;
 import ejerciciosWhile.ejercicio111;
 import ejerciciosWhile.ejercicio222;
 import ejerciciosWhile.ejercicio333;
-
+import ejerciciosWhile.ejercicio444;
+import ejerciciosWhile.ejercicio555;
+import ejerciciosWhile.ejercicio666;
+import ejerciciosDoWhile.ejercicio1111;
+import ejerciciosDoWhile.ejercicio2222;
+import ejerciciosDoWhile.ejercicio3333;
+import ejerciciosDoWhile.ejercicio4444;
+import ejerciciosDoWhile.ejercicio5555;
+import ejerciciosDoWhile.ejercicio6666;
 
 public class  EjecutadorPrincipal{
     public static void main(String[] args) {
@@ -200,12 +208,18 @@ public class  EjecutadorPrincipal{
                                 break;
                             case 4:
                                 System.out.println("Bienvenido al Ejercicio 4: simalacion de   un viaje en coche.");
+                                ejercicio444 objCarro = new ejercicio444();
+                                objCarro.ingresarDatos();
                                 break;
                             case 5:
                                 System.out.println("Bienvenido al Ejercicio 5: simualacion de  una cuenta regresiva");
+                                ejercicio555 objCuenta= new ejercicio555();
+                                objCuenta.ingresarDatos();
                                 break;
                             case 6:
                                 System.out.println("Bienvenido al Ejercicio 6: simulacion de un  juego simple de adivinanza");
+                                ejercicio666 objJuego= new ejercicio666();
+                                objJuego.ingresarDatos();
                                 break;
                             
                             default:
@@ -235,23 +249,33 @@ public class  EjecutadorPrincipal{
                         switch (opc4) {
                             case 1:
                                 System.out.println("Bienvenido al Ejercicio 1: simulacion de  un  registro de bibliotecas.");
+                                ejercicio1111 objBiblioteca = new ejercicio1111();
+                                objBiblioteca.ingresatDatos();
                                 break;
                             case 2:
                                 System.out.println("Bienvenidos al Ejercicio 2: simulacion de un menú de comidas rápidas. ");
-                                // Llamar a métodos y crear objeto
-                              
+                                ejercicio2222 objMenu= new ejercicio2222();
+                                objMenu.ingresarDatos();
                                 break;
                             case 3:
                                 System.out.println("Bienvenido al Ejercicio 3: simulacion de un  sensor de temperatura.");
+                                ejercicio3333 objSensor= new ejercicio3333();
+                                objSensor.ingresarDatos();
                                 break;
                             case 4:
                                 System.out.println("Bienvenido al Ejercicio 4: simalacion de   un registro de  resultados de exámenes..");
+                                ejercicio4444 objResultado = new ejercicio4444();
+                                objResultado.ingresatDatos();
                                 break;
                             case 5:
                                 System.out.println("Bienvenido al Ejercicio 5: simualacion de  gestión de tareas. ");
+                                ejercicio5555 objGestion= new ejercicio5555();
+                                objGestion.ingresatDatos();
                                 break;
                             case 6:
                                 System.out.println("Bienvenido al Ejercicio 6: simulacion de  registro de ventas. ");
+                                ejercicio6666 objVentas= new ejercicio6666();
+                                objVentas.ingresatDatos();
                                 break;
                             
                             default:
